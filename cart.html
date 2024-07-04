@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="./src/output.css" rel="stylesheet" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet"
+      />
+      <script>
+        if (
+          localStorage.theme === "dark" ||
+          (!("theme" in localStorage) &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches)
+        ) {
+          document.documentElement.classList.add("dark");
+        } else {
+          document.documentElement.classList.remove("dark");
+        }
+      </script>
+    </head>
+  </head>
+  <body>
+    <!-- Header start -->
+    <header
+      class="absolute top-0 left-0 z-10 flex items-center w-full bg-transparent"
+    >
+      <div class="container flex items-center justify-between px-4 mx-auto">
+        <div class="flex items-center flex-grow">
+          <a
+            href="./index.html"
+            class="block py-6 font-bold text-[#FF007A] font-poppins lg:text-2xl"
+            >FestArt<span class="text-black"> Garments</span></a
+          >
+        </div>
+        <div class="flex items-center justify-center flex-grow">
+          <nav id="nav-menu" class="hidden lg:flex">
+            <ul class="flex space-x-8">
+              <li class="group">
+                <a
+                  href="./index.html"
+                  class="flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
+                  >Home</a
+                >
+              </li>
+              <li class="group">
+                <a
+                  href="./product.html"
+                  class="flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
+                  >Product</a
+                >
+              </li>
+              <li class="group">
+                <a
+                  href="./contact.html"
+                  class="flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
+                  >Contact</a
+                >
+              </li>
+              <li class="group">
+                <a
+                  href="./blog.html"
+                  class="flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="flex items-center justify-end flex-grow space-x-2">
+          <a
+            href="./login.html"
+            class="px-6 py-2 bg-gradient-to-r from-[#A21184] to-[#FC017B] text-white rounded-lg"
+            >Login</a
+          >
+          <a
+            href="#"
+            class="px-4 py-2 bg-gradient-to-r from-[#A21184] to-[#FC017B] text-white rounded-lg"
+            >Register</a
+          >
+          <button
+            id="hamburger"
+            name="hamburger"
+            type="button"
+            class="block lg:hidden"
+          >
+            <span
+              class="transition duration-300 ease-in-out origin-top-left hamburger-line"
+            ></span>
+            <span
+              class="transition duration-300 ease-in-out hamburger-line"
+            ></span>
+            <span
+              class="transition duration-300 ease-in-out origin-bottom-left hamburger-line"
+            ></span>
+          </button>
+        </div>
+      </div>
+      <nav
+        id="nav-menu-mobile"
+        class="hidden lg:hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full dark:bg-dark dark:shadow-slate-500"
+      >
+        <ul class="block">
+          <li class="group">
+            <a
+              href="./index.html"
+              class="flex py-2 mx-8 text-base text-dark group-hover:text-primary dark:text-white"
+              >Home</a
+            >
+          </li>
+          <li class="group">
+            <a
+              href="./product.html"
+              class="flex py-2 mx-8 text-base text-dark group-hover:text-primary dark:text-white"
+              >Product</a
+            >
+          </li>
+          <li class="group">
+            <a
+              href="./contact.html"
+              class="flex py-2 mx-8 text-base text-dark group-hover:text-primary dark:text-white"
+              >Contact</a
+            >
+          </li>
+          <li class="group">
+            <a
+              href="./blog.html"
+              class="flex py-2 mx-8 text-base text-dark group-hover:text-primary dark:text-white"
+              >Blog</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- hero section1 start -->
+    <div class="container pt-24 dark:bg-dark">
+      <div
+        class="flex flex-wrap bg-gradient-to-r from-[#FFFFFF] via-[#DAD7D7] to-[#ACABAB]"
+      >
+        <div class="self-end w-full px-4 bg-[#C4C4C4] lg:w-1/2 lg:mb-0 mb-32">
+          <div class="relative">
+            <img src="./src/img/cart.png" alt="zaki" class="max-w-full mx-auto" />
+          </div>
+        </div>
+        <div class="self-center w-full px-4 mb-10 text-center lg:mb-0 lg:w-1/2">
+          <h2
+            class="mb-5 text-3xl font-light text-black lg:text-5xl font-poppins"
+          >
+            Cart
+          </h2>
+        </div>
+      </div>
+    </div>
+    <!-- hero section1 end -->
+
+    <!-- cart start -->
+    <div class="container mx-auto mt-10">
+      <div class="my-10 shadow-md sm:flex">
+        <div class="w-full px-10 py-10 bg-white sm:w-3/4">
+          <div class="flex justify-between pb-8 border-b">
+            <h1 class="text-2xl font-semibold">Shopping Cart</h1>
+            <h2 class="text-2xl font-semibold">3 Items</h2>
+          </div>
+          <div
+            class="py-8 border-t md:flex items-strech md:py-10 lg:py-8 border-gray-50"
+          >
+            <div class="w-full md:w-4/12 2xl:w-1/4">
+              <img
+                src="./src/img/1.png"
+                alt="Black Leather Purse"
+                class="hidden object-cover object-center h-full md:block bg-[#E9E9E9]"
+              />
+              <img
+                src="./src/img/1.png"
+                alt="Black Leather Purse"
+                class="object-cover object-center w-full h-full md:hidden bg-[#E9E9E9]"
+              />
+            </div>
+            <div
+              class="flex flex-col justify-center md:pl-3 md:w-8/12 2xl:w-3/4"
+            >
+              <div class="flex items-center justify-between w-full">
+                <p class="text-base font-black leading-none text-gray-800">
+                  Costum Cosplay Maid Girl
+                </p>
+                <select
+                  aria-label="Select quantity"
+                  class="px-1 py-2 mr-6 border border-gray-200 focus:outline-none"
+                >
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                </select>
+              </div>
+              <p class="pt-2 text-xs leading-3 text-gray-600">Size: S</p>
+              <p class="py-4 text-xs leading-3 text-gray-600">
+                Color: black and white
+              </p>
+              <p class="text-xs leading-3 text-gray-600 w-96">
+                Composition: 100% calf leather
+              </p>
+              <div class="flex items-center justify-between pt-5">
+                <div class="flex itemms-center">
+                  <p
+                    class="text-xs leading-3 text-gray-800 underline cursor-pointer"
+                  >
+                    Add to favorites
+                  </p>
+                  <p
+                    class="pl-5 text-xs leading-3 text-red-500 underline cursor-pointer"
+                  >
+                    Remove
+                  </p>
+                </div>
+                <p class="text-base font-black leading-none text-gray-800">
+                  RP 1000.000
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="py-8 border-t md:flex items-strech md:py-10 lg:py-8 border-gray-50"
+          >
+            <div class="w-full md:w-4/12 2xl:w-1/4">
+              <img
+                src="./src/img/2.png"
+                alt="Black Leather Purse"
+                class="hidden object-cover object-center h-full md:block bg-[#E9E9E9]"
+              />
+              <img
+                src="./src/img/2.png"
+                alt="Black Leather Purse"
+                class="object-cover object-center w-full h-full md:hidden bg-[#E9E9E9]"
+              />
+            </div>
+            <div
+              class="flex flex-col justify-center md:pl-3 md:w-8/12 2xl:w-3/4"
+            >
+              <div class="flex items-center justify-between w-full">
+                <p class="text-base font-black leading-none text-gray-800">
+                  Costum Cosplay Maid Girl
+                </p>
+                <select
+                  aria-label="Select quantity"
+                  class="px-1 py-2 mr-6 border border-gray-200 focus:outline-none"
+                >
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                </select>
+              </div>
+              <p class="pt-2 text-xs leading-3 text-gray-600">Size: S</p>
+              <p class="py-4 text-xs leading-3 text-gray-600">
+                Color: black and white
+              </p>
+              <p class="text-xs leading-3 text-gray-600 w-96">
+                Composition: 100% calf leather
+              </p>
+              <div class="flex items-center justify-between pt-5">
+                <div class="flex itemms-center">
+                  <p
+                    class="text-xs leading-3 text-gray-800 underline cursor-pointer"
+                  >
+                    Add to favorites
+                  </p>
+                  <p
+                    class="pl-5 text-xs leading-3 text-red-500 underline cursor-pointer"
+                  >
+                    Remove
+                  </p>
+                </div>
+                <p class="text-base font-black leading-none text-gray-800">
+                  100.000
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="py-8 border-t md:flex items-strech md:py-10 lg:py-8 border-gray-50"
+          >
+            <div class="w-full md:w-4/12 2xl:w-1/4">
+              <img
+                src="./src/img/3.png"
+                alt="Black Leather Purse"
+                class="hidden object-cover object-center h-full md:block bg-[#E9E9E9]"
+              />
+              <img
+                src="./src/img/3.png"
+                alt="Black Leather Purse"
+                class="object-cover object-center w-full h-full md:hidden bg-[#E9E9E9]"
+              />
+            </div>
+            <div
+              class="flex flex-col justify-center md:pl-3 md:w-8/12 2xl:w-3/4"
+            >
+              <div class="flex items-center justify-between w-full">
+                <p class="text-base font-black leading-none text-gray-800">
+                  Costum Cosplay Maid Girl
+                </p>
+                <select
+                  aria-label="Select quantity"
+                  class="px-1 py-2 mr-6 border border-gray-200 focus:outline-none"
+                >
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                </select>
+              </div>
+              <p class="pt-2 text-xs leading-3 text-gray-600">Size: S</p>
+              <p class="py-4 text-xs leading-3 text-gray-600">
+                Color: black and white
+              </p>
+              <p class="text-xs leading-3 text-gray-600 w-96">
+                Composition: 100% calf leather
+              </p>
+              <div class="flex items-center justify-between pt-5">
+                <div class="flex itemms-center">
+                  <p
+                    class="text-xs leading-3 text-gray-800 underline cursor-pointer"
+                  >
+                    Add to favorites
+                  </p>
+                  <p
+                    class="pl-5 text-xs leading-3 text-red-500 underline cursor-pointer"
+                  >
+                    Remove
+                  </p>
+                </div>
+                <p class="text-base font-black leading-none text-gray-800">
+                  100.000
+                </p>
+              </div>
+            </div>
+          </div>
+          <a
+            href="./product.html"
+            class="flex mt-10 text-sm font-semibold text-indigo-600"
+          >
+            <svg
+              class="w-4 mr-2 text-indigo-600 fill-current"
+              viewBox="0 0 448 512"
+            >
+              <path
+                d="M134.059 296H436c6.627 0 12-5.373 12-12v-56c0-6.627-5.373-12-12-12H134.059v-46.059c0-21.382-25.851-32.09-40.971-16.971L7.029 239.029c-9.373 9.373-9.373 24.569 0 33.941l86.059 86.059c15.119 15.119 40.971 4.411 40.971-16.971V296z"
+              />
+            </svg>
+            Continue Shopping
+          </a>
+        </div>
+        <div id="summary" class="w-full px-8 py-10 sm:w-1/4 md:w-1/2">
+          <h1 class="pb-8 text-2xl font-semibold border-b">Order Summary</h1>
+          <div class="flex justify-between mt-10 mb-5">
+            <span class="text-sm font-semibold uppercase">Items 3</span>
+          </div>
+          <div class="py-5">
+            <label
+              for="promo"
+              class="inline-block mb-3 text-sm font-semibold uppercase"
+            >
+              Promo Code
+            </label>
+            <input
+              type="text"
+              id="promo"
+              placeholder="Enter your code"
+              class="w-full p-2 text-sm"
+            />
+          </div>
+          <button
+            class="px-5 py-2 text-sm text-white uppercase bg-red-500 hover:bg-red-600"
+          >
+            Apply
+          </button>
+          <div
+            class="flex justify-between mt-10 text-sm font-semibold uppercase"
+          >
+            <span>Subtotal</span>
+            <span>1000.00</span>
+          </div>
+          <div
+            class="flex justify-between mt-4 text-sm font-semibold uppercase"
+          >
+            <span>Shipping cost</span>
+            <span>16.000 - 40.000</span>
+          </div>
+
+          <div class="mt-8 border-t">
+            <div class="flex justify-between py-6 text-xl font-bold uppercase">
+              <span>Total cost</span>
+              <span>RP.140.000</span>
+            </div>
+            <a href="./detail.html">
+              <button
+                class="w-full py-3 text-sm font-semibold text-white uppercase bg-indigo-500 hover:bg-indigo-600"
+              >
+                Checkout
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- cart end -->
+
+    <script src="./src/js/script-index.js"></script>
+  </body>
+</html>
