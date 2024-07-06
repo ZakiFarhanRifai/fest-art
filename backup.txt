@@ -1,0 +1,589 @@
+<div class="hidden categories-menu">
+              <ul>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <span
+                      class="block px-3 py-1 text-base font-medium rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >COSPLAY & ANIME</span
+                    >
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <span
+                      class="block px-3 py-1 text-base font-medium rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >Tradisional Clothes</span
+                    >
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <span
+                      class="block px-3 py-1 text-base font-medium rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >OCCUPATIONAL/ PROFESI/ SPORT</span
+                    >
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <span
+                      class="block px-3 py-1 text-base font-medium rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >ACCESSORIES</span
+                    >
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <span
+                      class="block px-3 py-1 text-base font-medium rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >MODERN CLOTHES</span
+                    >
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <span
+                      class="block px-3 py-1 text-base font-medium rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >RELIGION CLOTHES</span
+                    >
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="inline-flex items-center pl-1">
+              <svg
+                class="w-6 h-6 text-gray-800"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <button
+                class="py-1 text-2xl font-semibold rounded-md hover:bg-indigo-50 focus:outline-none gender-dropdown"
+              >
+                Gender
+              </button>
+            </div>
+            <div class="hidden gender-menu">
+              <ul>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <span
+                      class="block px-3 py-1 text-base font-medium rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >BOYS</span
+                    >
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <span
+                      class="block px-3 py-1 text-base font-medium rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >GIRL</span
+                    >
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <span
+                      class="block px-3 py-1 text-base font-medium rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >MEN</span
+                    >
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <span
+                      class="block px-3 py-1 text-base font-medium rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >WOMEN</span
+                    >
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="inline-flex items-center pl-1">
+              <svg
+                class="w-6 h-6 text-gray-800"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <button
+                class="py-1 text-2xl font-semibold rounded-md hover:bg-indigo-50 focus:outline-none price-dropdown"
+              >
+                Price range
+              </button>
+            </div>
+            <div class="hidden price-menu">
+              <ul>
+                <li>
+                  <div class="items-center mb-5 ml-3 inline-flexflex">
+                    <input
+                      type="number"
+                      placeholder="Min"
+                      class="gap-6 px-1 py-1 border rounded-md w-44"
+                    />
+                    <input
+                      type="number"
+                      placeholder="Max"
+                      class="px-1 py-1 border rounded-md ml-7 w-44"
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="flex items-center justify-center px-1 py-3 ml-3 bg-white border rounded-md w-96 hover:text-purple-600 hover:bg-violet-200"
+                  >
+                    <span class="text-sm font-semibold text-black">APPLY</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="inline-flex items-center pl-1">
+              <svg
+                class="w-6 h-6 text-gray-800"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <button
+                class="py-1 text-2xl font-semibold rounded-md hover:bg-indigo-50 focus:outline-none lokasi-dropdown"
+              >
+                Lokasi
+              </button>
+            </div>
+            <div class="hidden lokasi-menu">
+              <ul>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <span
+                      class="block px-3 py-1 text-base font-medium rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >JAWA TENGAH</span
+                    >
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <span
+                      class="block px-3 py-1 text-base font-medium rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >JAWA TIMUR</span
+                    >
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <span
+                      class="block px-3 py-1 text-base font-medium rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >JAWA BARAT</span
+                    >
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <span
+                      class="block px-3 py-1 text-base font-medium rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >DKI JAKARTA</span
+                    >
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <span
+                      class="block px-3 py-1 text-base font-medium rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >BALI</span
+                    >
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <span
+                      class="block px-3 py-1 text-base font-medium rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >RIAU</span
+                    >
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <span
+                      class="block py-5 text-base font-semibold rounded-md opacity-90 hover:bg-indigo-50 focus:outline-none"
+                      >SEE ALL</span
+                    >
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="inline-flex items-center pl-1">
+              <svg
+                class="w-6 h-6 text-gray-800"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <button
+                class="py-1 text-2xl font-semibold rounded-md hover:bg-indigo-50 focus:outline-none rate-dropdown"
+              >
+                Ratings
+              </button>
+            </div>
+            <div class="hidden rate-menu">
+              <ul>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <a href="">
+                      <div class="flex mt-5">
+                        <svg
+                          class="w-6 h-6 text-yellow-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-yellow-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-yellow-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-yellow-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-yellow-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                      </div>
+                    </a>
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <a href="">
+                      <div class="flex mt-5">
+                        <svg
+                          class="w-6 h-6 text-yellow-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-yellow-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-yellow-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-yellow-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-gray-300 lg:w-7 lg:h-7 ms-1 dark:text-gray-500"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                      </div>
+                    </a>
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <a href="">
+                      <div class="flex mt-5">
+                        <svg
+                          class="w-6 h-6 text-yellow-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-yellow-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-yellow-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-gray-300 lg:w-7 lg:h-7 ms-1 dark:text-gray-500"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-gray-300 lg:w-7 lg:h-7 ms-1 dark:text-gray-500"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                      </div>
+                    </a>
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <a href="">
+                      <div class="flex mt-5">
+                        <svg
+                          class="w-6 h-6 text-yellow-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-yellow-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-gray-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-gray-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-gray-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                      </div>
+                    </a>
+                  </label>
+                </li>
+                <li>
+                  <label class="inline-flex items-center ml-3">
+                    <input type="checkbox" class="" />
+                    <a href="">
+                      <div class="flex mt-5">
+                        <svg
+                          class="w-6 h-6 text-yellow-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-gray-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-gray-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-gray-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                        <svg
+                          class="w-6 h-6 text-gray-300 lg:w-7 lg:h-7 ms-1"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 22 20"
+                        >
+                          <path
+                            d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                          />
+                        </svg>
+                      </div>
+                    </a>
+                  </label>
+                </li>
+              </ul>
+            </div>
